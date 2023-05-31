@@ -77,7 +77,7 @@
                                 </TransformGroup>
                             </Border.RenderTransform>
                             <Grid>
-                                <Button Cursor="Hand" Margin="0" Background="Transparent" Content="" BorderThickness="0" Click="Button_Click" Style="{DynamicResource MyButtonStyle}"/>
+                                <Button Cursor="Hand" Margin="0" Background="Transparent" Content="" BorderThickness="0" Click="Button_Click" Style="{DynamicResource MyButtonStyle}" Panel.ZIndex="2"/>
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FFD0D0D0">Clear<LineBreak/>Chat</TextBlock>
                             </Grid>
                         </Border>
